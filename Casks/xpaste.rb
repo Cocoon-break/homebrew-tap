@@ -1,9 +1,9 @@
 cask "xpaste" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.7.0"
-  sha256 arm:   "f86935d73fc15711e984fd311a7386a3eb961a89c6c912bfa2671769146a4689",
-         intel: "14233a07afd6d0f98a5fd7efd6243f383d24fdb811d577f5f8a2995fac692243"
+  version "0.7.1"
+  sha256 arm:   "446dc78b878177738237a937a0ecc65a9084d419c46e6d79529a774740626609",
+         intel: "94e3e278149391f13e71561f35d38cccd847c2a4f6c3fee74b853f7b9df0e03b"
 
   url "https://github.com/Cocoon-break/xpaste/releases/download/v#{version}/xPaste_#{version}_#{arch}.dmg"
   name "xPaste"
